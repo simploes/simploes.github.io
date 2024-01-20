@@ -1,8 +1,8 @@
-. container {
+.container {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color: transparent;
 }
 
 /* Global */
@@ -19,7 +19,7 @@ ul{
 
 .dark{
   min-height:600px;
-  background:url('../img/mi.jpg') no-repeat;
+  background:url('./Image/mi.jpg') no-repeat;
   background-position: center;
   background-size:cover;
   text-align: left;
@@ -76,7 +76,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/bg.jpg') no-repeat;
+  background:url('./Image/bg.jpg') no-repeat;
   background-position: center;
   background-size: cover;
   text-align:center;
